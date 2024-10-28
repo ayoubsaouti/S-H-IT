@@ -1,0 +1,111 @@
+/*HEADER*/
+span.titre{
+	color:#ffffff;
+	font-size: 28px;
+	font-weight: bold;
+}
+/*FIN HEADER*/
+/*BODY*/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+div.bg-image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url('background.jpg');
+	background-size: cover; /* img couvre toute la page */
+	opacity: 0.2;
+  }
+/*FIN BODY*/
+/*ARTICLE*/
+
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+}
+.carousel-control-next{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 50%;
+	top: calc(50% - 25px);
+	
+}
+.carousel-control-prev{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 50%;
+	top: calc(50% - 25px);
+}
+div.lb_article{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+div.titre_ODM{
+	font-size: 35px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+div.titre_DECOUVRER{
+	font-size: 35px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+span.prix_art{
+	color: #610000;
+	font-size: 30px;
+	text-decoration: line-through;
+	margin-left: 10%;
+}
+span.vprix_art{
+	color: #610000;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+/*FIN ARTICLE*/
+
+/*Rubrique*/
+a.btn.btn-dark{
+	margin-left: 10%;
+	
+}
+
+p.prix{
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+/*Fin RUBRIQUE*/
+
+/*NAV*/
+a.accueil{
+	color: #000000 !important;
+}
+/*Fin NAV*/
+
+/*FOOTER*/
+footer{
+	background-color: #416186;
+	margin-top: auto;
+
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+/*FIN FOOTER*/
+
+/* PAGE LOGIN */
